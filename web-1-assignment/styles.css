@@ -1,0 +1,169 @@
+#nav1 li a {
+    padding:  5px 25px;
+    float: left;
+    overflow: hidden;
+    border-radius: 25px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-right: 10px;
+    font-weight: bold;
+    margin:5px;
+    color:black;
+    
+}
+#nav1 li a:hover {
+    background-color: rgb(25, 211, 0);
+    color:white;
+    text-shadow:  none;
+}
+#nav1 li a:active {
+    background-color: rgb(25, 211, 0);
+    color:white;
+    text-shadow:  none;
+}
+#nav1 {
+    padding-top: 3px;
+    padding-left: px;
+}
+#first {
+    padding-left: 46.5px;
+}
+
+img.facts{
+    height: 70%;
+    width:90%;
+    float: right;
+}
+#img-rounded {
+    border-radius: 50%;
+    width:150px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 150px;
+    float:left;
+}
+#img-roundedright {
+    border-radius: 50%;
+    width:150px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 150px;
+    float:right;
+}
+#centered-text {
+    text-align: center;
+}
+#left {
+    padding-left:200px;
+    padding-bottom: 130px;
+    text-align: center;
+    padding-right:50px;
+}
+#right {
+    padding-left:100px;
+    padding-bottom: 30px;
+    text-align: center;
+    width:70%;
+    float: right;
+}
+img.emissions{
+    padding-left: 14px;
+
+}
+img.comparison{
+    height: auto;
+    width: 100%;
+    padding-left: 14px;
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+.vid{
+    float: right;
+    width: 380px;
+}
+#footer {
+    padding-top: 5px;
+    padding-left: 300px;
+    background-color: rgb(228, 217, 217);
+    border-top-style: solid;
+}
+#heading-text {
+    text-align: center;
+    padding-left: 50px;
+    padding-right:50px;
+}
+#last-modified {
+    padding-top: 15px;
+    float:right;
+    width: 50%;
+    height: 50px;
+    background-color: rgb(228, 217, 217);
+}
+#logo-footer {
+    width:50%;
+    float:left;
+    background-color: rgb(228, 217, 217);
+    padding-top: 15px;
+}
+#test {
+    padding-left:200px;
+    padding-top:30px;
+}
+#footer-logo {
+    width:50px;
+    height:50px;
+    padding-left:20px;
+}
+
+.carousel{
+    background: #2f4357;
+    margin-top: 20px;
+}
+.carousel .item{
+    min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+}
+.carousel .item img{
+    margin: 0 auto; /* Align slide image horizontally center */
+}
+
+.carouselIndicators{
+    margin: 0 auto;
+    float: right;
+}
+
+#homePageCarousel{
+    margin-top: -5px;
+}
+
+#twitterfeed  {
+    width: 50%;
+    float:right;
+}
+#connect {
+    width: 50%;
+    height: 550px;
+}
+#facebookfeed {
+    width: 50%;
+    float:right;
+}
+
+h1{
+    border-bottom: 3px solid rgb(34, 124, 12);
+    font-family: Nanum Gothic;
+}
+h2{
+    border-bottom: 3px solid rgb(82, 88, 80);
+    font-family: Nanum Gothic;
+  
+}
+h3{
+    font-family: Nanum Gothic;
+    color: rgb(0, 57, 110);
+}
+h4{
+    font-family: Nanum Gothic;
+    color: rgb(4, 126, 0);
+}
+#likebutton{
+    padding-left:100px;
+}
