@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+    <script type="text/javascript" src="script.js">
+    showhideanswers();
+    </script>
+    <title>Otago Recycling</title>
+</head>
+<body>
+    <header>
+        <div class ="navbar">
+        <div class="header">
+        
+        <h1 class="heading"><img src="symbol.png" alt="Recycling symbol" class="header"/>
+            Recycling Otago 
+        <img src="symbol.png" alt="Recycling symbol" class="header1"/></h1>
+        </div>
+        <img src="backdrop.jpg" alt="Queenstown" class="bannerimage"/>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="area.html">Recycling in your area</a></li>
+                <li><a href="ewaste.html">E-Waste</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <div class="content">
+            <p class ="text">
+                It's important to recycle correctly. Different types of rubbish go in different
+                bins. Play this game and see if you know what rubbish goes in what bin. <br><br>To play, simply 
+                drag and drop the rubbish into the bin you think it goes in. If you get it wrong, try again. You may reset the 
+                game at any time.
+            </p>
+            <div class ="grid">
+
+                    <div class ="row">
+                
+                        <div class ="cell"><div id="div1" ondrop="drop1(event)" ondragover="allowDrop(event)"></div></div>
+                        <div class ="cell"><img class ="game" id="drag2" src="box.png" draggable="true" ondragstart="drag2(event)"/></div>
+                
+                    </div>
+                    
+                    <div class ="row">
+                
+                        <div id="div2" ondrop="drop2(event)" ondragover="allowDrop(event)"></div>
+                        <div class ="cell"><img class ="game" id="drag3" src="waste.png" draggable="true" ondragstart="drag3(event)"/></div>
+                
+                    </div>
+                    
+                    <div class ="row">
+                
+                        <div class ="cell"><div id="div3" ondrop="drop3(event)" ondragover="allowDrop(event)"></div></div>
+                        <div class ="cell"><img class ="game" id="drag1" src="bottle.png" draggable="true" ondragstart="drag1(event)" /></div>
+                
+                    </div>
+                
+            </div>
+        
+            <button type="button" class="button" onclick="reset()">Reset the game</button>
+            <button type="button" class="button" onclick="showhideanswers()">Toggle answers</button>
+
+        <div class="empty">
+            <div id="answers">
+                <p class="red">Red bin:</p>
+                <p class="explain">Holds waste products, such as <b>rubbish bags.</b></p>
+                <p class="blue">Blue bin:</p>
+                <p class="explain">Holds glass recycling, such as <b>glass bottles.</b></p>
+                <p class="yellow">Yellow bin:</p>
+                <p class="explain">Holds plastic, cans, paper and cardboard recycling like <b>cardboard boxes.</b></p>
+            </div>
+        </div>
+
+                
+  
+    </div>
+    <footer>
+        <div>
+            <img src="op.png" alt="Otago Polytechnic" class="op"/>
+            <script language="javascript">
+                document.write ("This page was last updated on: " + document.lastModified);
+            </script>
+        </div>
+    </footer>
+
+</body>
+</html>
